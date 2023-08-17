@@ -1,3 +1,8 @@
 enabled_locales: ["en", "vi"]
 client:
   host: "localhost:3000"
+users:
+  max_name: 50
+  email_regex: !ruby/regexp /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i
+  max_email: 255
+  min_password: 6
