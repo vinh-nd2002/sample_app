@@ -27,6 +27,11 @@
 
 /public/assets
 
+/test/controllers/*.rb
 # Ignore master key for decrypting credentials and more.
 /config/master.key
 /config/database.yml
+
+config/settings.local.yml
+config/settings/*.local.yml
+config/environments/*.local.yml
