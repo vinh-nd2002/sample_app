@@ -26,3 +26,16 @@ vi:
   sign_up:
     title: "Đăng ký"
     description: "Đây sẽ là một trang đăng ký cho người dùng mới."
+    welcome: "Chào mừng đến với Ứng dụng mẫu!"
+    errors:
+      error_message: "Biểu mẫu có %{message}."
+      one: "lỗi"
+      other: "lỗi"
+    form:
+      submit: "Đăng ký tài khoản mới"
+      name: "Tên"
+      email: "Email"
+      password: "Mật khẩu"
+      password_confirmation: "Nhập lại mật khẩu"
+  users:
+    not_found: "Không tìm thấy người dùng này!!!"
