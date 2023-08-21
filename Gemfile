@@ -9,6 +9,7 @@ gem "sprockets-rails"
 
 gem "config"
 
+gem "bcrypt", "3.1.18"
 gem "bootsnap", require: false
 gem "bootstrap-sass", "3.4.1"
 gem "importmap-rails"
