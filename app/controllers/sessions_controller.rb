@@ -26,10 +26,12 @@ class SessionsController < ApplicationController
   end
 
   def handle_successful_login user
+    following_url = session[:following_url]
     reset_session
     remember_or_forget user
     log_in(user)
-    redirect_to(user)
+    session[:following_url] = following_url
+    redirect_back_or user
   end
 
   def remember_or_forget user

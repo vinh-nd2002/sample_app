@@ -40,7 +40,7 @@ vi:
       one: "lỗi"
       other: "lỗi"
     form:
-      submit: "Đăng ký tài khoản mới"
+      submit: "Lưu"
       name: "Tên"
       email: "Email"
       password: "Mật khẩu"
@@ -56,5 +56,18 @@ vi:
       question: "Bạn chưa có tài khoản?"
       link: "Đăng ký ngay"
     remember_me: "Ghi nhớ đăng nhập"
+    not_login: "Đăng nhập đi đã bạn ơi!"
   users:
+    title: "Danh sách người dùng"
     not_found: "Không tìm thấy người dùng này!!!"
+    update:
+      title: "Cập nhật thông tin"
+      success: "Cập nhật thành công"
+      failed: "Cập nhật thất bại"
+      can_not: "Làm gì có quyền???"
+    delete:
+      success: "Xóa thành công"
+      failed: "Xóa thất bại"
+      title: "Xóa"
+      confirm: "Bạn có muốn xóa không?"
+  change: "Thay đổi"
