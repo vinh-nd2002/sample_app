@@ -55,5 +55,6 @@ vi:
     sign_up:
       question: "Bạn chưa có tài khoản?"
       link: "Đăng ký ngay"
+    remember_me: "Ghi nhớ đăng nhập"
   users:
     not_found: "Không tìm thấy người dùng này!!!"

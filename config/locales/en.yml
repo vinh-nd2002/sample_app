@@ -55,5 +55,6 @@ en:
     sign_up:
       question: "New user?"
       link: "Sign up now!!!"
+    remember_me: "Remember me on this computer"
   users:
     not_found: "User not found!!!"
