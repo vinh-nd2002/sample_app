@@ -12,9 +12,14 @@ gem "config"
 gem "bcrypt", "3.1.18"
 gem "bootsnap", require: false
 gem "bootstrap-sass", "3.4.1"
+
+gem "faker", "2.21.0"
+
 gem "importmap-rails"
 gem "jbuilder"
 gem "mysql2", "~> 0.5"
+gem "pagy"
+gem "pry-rails", group: :development
 gem "puma", "~> 5.0"
 gem "sassc-rails", "2.1.2"
 gem "stimulus-rails"

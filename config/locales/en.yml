@@ -40,10 +40,10 @@ en:
       one: "error"
       other: "errors"
     form:
-      submit: "Create my account"
+      submit: "Save"
       name: "Name"
       email: "Email"
-      password: "password"
+      password: "Password"
       password_confirmation: "Password Confirmation"
   login:
     danger_flash: "Invalid email/password combination"
@@ -56,5 +56,18 @@ en:
       question: "New user?"
       link: "Sign up now!!!"
     remember_me: "Remember me on this computer"
+    not_login: "Please login!!!"
   users:
+    title: "List users"
     not_found: "User not found!!!"
+    update:
+      title: "Update Info"
+      success: "Update successfully"
+      failed: "Update Failed"
+      can_not: "Can't update"
+    delete:
+      success: "Delete successfully"
+      failed: "Delete Failed"
+      title: "Delete"
+      confirm: "Are you sure?"
+  change: "change"
