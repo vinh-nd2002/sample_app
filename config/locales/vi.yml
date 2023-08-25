@@ -71,3 +71,10 @@ vi:
       title: "Xóa"
       confirm: "Bạn có muốn xóa không?"
   change: "Thay đổi"
+  activation:
+    success: "Tài khoản đã được kích hoạt"
+    failed: "Đường link không tồn tại!!!"
+    message: "Vui lòng kiểm tra email để kích hoạt tài khoản"
+    subject: "Kích hoạt tài khoản"
+    welcome_message: "Xin chào %{name}, Chào mừng bạn đến với Ứng dụng Mẫu! Hãy nhấp vào liên kết bên dưới để kích hoạt tài khoản của bạn:"
+    active: "Kích hoạt"

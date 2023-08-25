@@ -71,3 +71,10 @@ en:
       title: "Delete"
       confirm: "Are you sure?"
   change: "change"
+  activation:
+    success: "Account activated!"
+    failed: "Invalid activation link!!!"
+    message: "Please confirm your email to activate the account"
+    subject: "Account activation"
+    welcome_message: "Hi %{name}, Welcome to the Sample App! Click on the link below to activate your account:"
+    active: "Activate"
