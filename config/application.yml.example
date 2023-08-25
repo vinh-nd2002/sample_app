@@ -1,5 +1,5 @@
 host: "your_host"
-email:
-  username: "your_username"
-  password: "your_password"
-  address: "your_address"
+username: "your_username"
+password: "your_password"
+address: "your_address"
+default_from: "email@example.com"
