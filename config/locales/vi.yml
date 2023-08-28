@@ -13,7 +13,7 @@ vi:
       title: "Chào mừng bạn đến với Ứng dụng mẫu"
       description: Đây là trang chủ của dự án mẫu sử dụng <a href="https://www.railstutorial.org/">Ruby on Rails Tutorial</a>.
       sign_up: "Đăng ký ngay"
-      label: "Home"
+      feed: "Bài viết"
     layouts:
       header:
         title: "Hướng dẫn Sample App bằng Ruby on Rails"
@@ -70,6 +70,8 @@ vi:
       failed: "Xóa thất bại"
       title: "Xóa"
       confirm: "Bạn có muốn xóa không?"
+    microposts: "Bài viết"
+    profile: "Thông tin"
   change: "Thay đổi"
   activation:
     success: "Tài khoản đã được kích hoạt"
@@ -98,3 +100,23 @@ vi:
       email: "Email"
       password: "Mật khẩu mới"
       password_confirmation: "Nhập lại mật khẩu mới"
+  microposts:
+    error: "Có gì đó sai sai?? Hãy kiểm tra lại"
+    create:
+      success: "Tạo thành công"
+      failed: "Tạo thất bại"
+    delete:
+      success: "Xóa thành công"
+      failed: "Xóa thất bại"
+      title: "Xóa"
+      confirm: "Bạn có muốn xóa không?"
+    content_type:
+      message: "Không đúng định dạng"
+    size:
+      message: "Tối đa chỉ có 5 MB thôi thím ơi"
+    form:
+      content: "Nội dung"
+      image: "Thêm ảnh"
+      placehoder: "Viết gì đó đy"
+      submit: "Đăng"
+    posted: "Đã đăng vào %{time} trước."
