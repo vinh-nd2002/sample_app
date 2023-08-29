@@ -4,6 +4,8 @@ class User < ApplicationRecord
   before_save :downcase_email
   before_create :create_activation_digest
 
+  has_many :microposts, dependent: :destroy
+
   validates :name, presence: true, length: {maximum: Settings.users.max_name}
 
   validates :email, presence: true,
@@ -11,10 +13,11 @@ class User < ApplicationRecord
                     format: {with: Settings.users.email_regex},
                     uniqueness: true
 
-  has_secure_password
   validates :password, presence: true,
                       length: {minimum: Settings.users.min_password},
                       allow_nil: true
+
+  has_secure_password
 
   class << self
     def digest string
@@ -37,6 +40,10 @@ class User < ApplicationRecord
       reset_digest: User.digest(reset_token),
       reset_sent_at: Time.zone.now
     )
+  end
+
+  def feed
+    microposts
   end
 
   def password_reset_expired?

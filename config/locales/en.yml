@@ -13,7 +13,7 @@ en:
       title: "Welcome to the Sample App"
       description: This is the home page for the <a href="https://www.railstutorial.org/">Ruby on Rails Tutorial</a> sample application.
       sign_up: "Sign up now!"
-    label: "Home"
+      feed: "Micropost Feed"
     layouts:
       header:
         title: "Ruby on Rails Tutorial Sample App"
@@ -70,6 +70,8 @@ en:
       failed: "Delete Failed"
       title: "Delete"
       confirm: "Are you sure?"
+    microposts: "Microposts"
+    profile: "Profile"
   change: "change"
   activation:
     success: "Account activated!"
@@ -98,3 +100,23 @@ en:
       email: "Email"
       password: "Password"
       password_confirmation: "Password Confirmation"
+  microposts:
+    error: "Oops!!! Is something wrong?? Please check back"
+    create:
+      success: "Create successfully"
+      failed: "Create failed"
+    delete:
+      success: "Delete successfully"
+      failed: "Delete failed"
+      title: "Delete"
+      confirm: "A diu sua?"
+    content_type:
+      message: "Incorrect image format"
+    size:
+      message: "Maximum only 5 MB"
+    form:
+      content: "Content"
+      image: "Image"
+      placehoder: "Write somethings"
+      submit: "Post"
+    posted: "Posted %{time} ago."
