@@ -120,3 +120,10 @@ vi:
       placehoder: "Viết gì đó đy"
       submit: "Đăng"
     posted: "Đã đăng vào %{time} trước."
+  relationships:
+    not_found: "Không có thým ơi"
+    follower: "Đang theo dõi"
+    followed: "Theo dõi"
+    form:
+      follow: "Theo dõi"
+      unfollow: "Hủy theo dõi"
